@@ -47,18 +47,16 @@ To run the project locally, follow these steps:
 2. Navigate to the project directory:
 
 ```bash
-Copy code
-cd demoEventPlanner
+    cd demoEventPlanner
 ```
 
 3. Install dependencies for frontend and backend:
 
 ```bash
-Copy code
-cd frontend
-npm install
-cd ../backend
-# Instructions to install backend dependencies (if any)
+    cd frontend
+    npm install
+    cd ../backend
+    # backend 설치 방법 기술
 ```
 
 4. Configure environment variables:
@@ -68,11 +66,10 @@ cd ../backend
 5. Start the frontend and backend servers:
 
 ```bash
-Copy code
 cd frontend
-npm start
+npm run dev
 cd ../backend
-# Instructions to start backend server (e.g., using Maven or Gradle)
+# back end 실행 방법
 ```
 
 6. Access the application:
@@ -80,7 +77,8 @@ cd ../backend
 
 ## Contributing
 
-https://github.com/JUNGJIYEOB
+[<img src="https://github.com/JUNGJIYEOB.png?size=115" width=115><br><sub>@JUNGJIYEOB</sub>](https://github.com/JUNGJIYEOB)
+[<img src="https://github.com/jhg1126q.png?size=115" width=115><br><sub>@jhg1126q</sub>](https://github.com/jhg1126q)
 
 ## License
 
