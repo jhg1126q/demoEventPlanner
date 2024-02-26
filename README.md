@@ -27,9 +27,7 @@ This application will facilitate users in creating, managing, and coordinating e
 
 - **User Authentication**: Allow users to sign up, log in, and manage their accounts securely.
 - **Event Creation**: Enable users to create new events, providing details such as event name, date, time, location, and description.
-- **Invitation Management**: Allow event creators to invite guests to their events and manage RSVPs.
-- **Notification System**: Implement a notification system to remind users about upcoming events and updates.
-- **Dashboard**: Provide users with a dashboard to view their upcoming events, RSVP status, and other relevant information.
+- **Calendar Dashboard**: Provide users with a dashboard to view their upcoming events, RSVP status, and other relevant information.
 - **Search Functionality**: Enable users to search for events based on various criteria such as date, location, or event type.
 
 ## Technologies Used
@@ -44,13 +42,15 @@ This application will facilitate users in creating, managing, and coordinating e
 - **Backend**:
 
   - Spring Boot
-  - Java
+  - Java 17
   - Spring Security
   - Spring Data JPA
 
 - **Database**:
+
   - MySQL
   - H2 DataBase
+  - PostgreSql
 
 ## Getting Started
 
@@ -84,10 +84,10 @@ To run the project locally, follow these steps:
 5. Start the frontend and backend servers:
 
 ```bash
-cd frontend
-npm run dev
-cd ../backend
-# back end 실행 방법
+    cd frontend
+    npm run dev
+    cd ../backend
+    # back end 실행 방법
 ```
 
 6. Access the application:
