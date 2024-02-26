@@ -1,4 +1,8 @@
 <h1 align='center'>
+  <img src="./document/asset/logo.png" width="100%"/>
+</h1>
+
+<h1 align='center'>
   demoEventPlanner
 </h1>
 
@@ -12,7 +16,7 @@
 
 ## Preview
 
-This is the place what we made of. Place image of prooject result.
+This is the place what we made of. Place image of project result.
 
 ## Overview
 
