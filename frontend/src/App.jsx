@@ -1,18 +1,11 @@
-import { useState } from "react";
+import Main from "./pages/Main";
 
-function App() {
-  const [count, setCount] = useState(0);
-
+const App = () => {
   return (
     <>
-      <h1>Main Page</h1>
-      <div>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
+      <Main></Main>
     </>
   );
-}
+};
 
 export default App;
