@@ -77,8 +77,11 @@ cd ../backend
 
 ## Contributing
 
-[<img src="https://github.com/JUNGJIYEOB.png?size=115" width=115><br><sub>@JUNGJIYEOB</sub>](https://github.com/JUNGJIYEOB)
-[<img src="https://github.com/jhg1126q.png?size=115" width=115><br><sub>@jhg1126q</sub>](https://github.com/jhg1126q)
+| Collaborator | Collaborator |
+| :----------: | :----------: |
+
+| [<img src="https://github.com/JUNGJIYEOB.png?size=115" width=115><br><sub>@JUNGJIYEOB</sub>](https://github.com/JUNGJIYEOB)
+| [<img src="https://github.com/jhg1126q.png?size=115" width=115><br><sub>@jhg1126q</sub>](https://github.com/jhg1126q) |
 
 ## License
 
