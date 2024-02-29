@@ -1,3 +1,5 @@
+import BasicCalender from "../components/Calender/BasicCalender";
+import CustomCalender from "../components/Calender/Calender";
 import React, { useState } from "react";
 
 const Main = () => {
@@ -27,18 +29,22 @@ const Main = () => {
   // tailwind css가 적용되지 않았습니다.
 
   return (
-    <ul className="divide-y divide-gray-200">
-      {people.map((person) => (
-        <li key={person.email} className="py-4 flex">
-          <div className="ml-3">
-            <p className="text-sm font-medium text-gray-900">{person.name}</p>
-            <p className="text-sm text-gray-500">{person.email}</p>
-          </div>
-        </li>
-      ))}
-      <button onClick={() => onClickHandler()}>Counter </button>
-      <p>{count}</p>
-    </ul>
+    <>
+      <CustomCalender></CustomCalender>
+      <ul className="divide-y divide-gray-200">
+        {people.map((person) => (
+          <li key={person.email} className="py-4 flex">
+            <div className="ml-3">
+              <p className="text-sm font-medium text-gray-900">{person.name}</p>
+              <p className="text-sm text-gray-500">{person.email}</p>
+            </div>
+          </li>
+        ))}
+        <BasicCalender></BasicCalender>
+        <button onClick={() => onClickHandler()}>Counter </button>
+        <p>{count}</p>
+      </ul>
+    </>
   );
 };
 
